@@ -165,7 +165,7 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    type: false
     # Disqus shortname
     shortname: ''
 # Donate plugin configurations
@@ -173,40 +173,40 @@ comment:
 donates:
     # "Afdian.net" donate button configurations
     -
-        type: afdian
+        type: false
         # URL to the "Afdian.net" personal page
         url: ''
     # Alipay donate button configurations
     -
-        type: alipay
+        type: false
         # Alipay qrcode image URL
         qrcode: ''
     # "Buy me a coffee" donate button configurations
     -
-        type: buymeacoffee
+        type: false
         # URL to the "Buy me a coffee" page
         url: ''
     # Patreon donate button configurations
     -
-        type: patreon
+        type: false
         # URL to the Patreon page
         url: ''
     # Paypal donate button configurations
     -
-        type: paypal
+        type: false
         # Paypal business ID or email address
         business: ''
         # Currency code
         currency_code: USD
     # Wechat donate button configurations
     -
-        type: wechat
+        type: false
         # Wechat qrcode image URL
         qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
+    type: false
     # URL to the ShareThis share plugin script
     install_url: ''
 # Sidebar configurations.
@@ -316,7 +316,7 @@ widgets:
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
-        type: adsense
+        type: false
         # AdSense client ID
         client_id: ''
         # AdSense AD unit ID
@@ -336,7 +336,7 @@ widgets:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
     # Enable page startup animations
-    animejs: true
+    animejs: false
     # Show the "back to top" button
     back_to_top: true
     # Baidu Analytics plugin settings
@@ -373,7 +373,7 @@ plugins:
         # URL to your site's cookie policy
         policyLink: https://www.cookiesandyou.com/
     # Enable the lightGallery and Justified Gallery plugins
-    gallery: true
+    gallery: false
     # Google Analytics plugin settings
     # https://analytics.google.com
     google_analytics:
